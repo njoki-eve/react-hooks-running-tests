@@ -1,5 +1,12 @@
 {
-  "typeAcquisition": {
-    "include": ["jest"]
-  }
+  "$schema": "https://json.schemastore.org/jsconfig.json", // <-- Add this line
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "src",
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*"]
 }
+
+  
